@@ -3,8 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Smile-Burguer/',
-  build: {
-    outDir: 'docs',
-  },
+  base: '/Portif-lio/', // 👈 nome EXATO do repositório
 })
