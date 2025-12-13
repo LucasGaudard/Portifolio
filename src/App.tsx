@@ -10,8 +10,8 @@ import Skills from "./Componentes/skills"
 const Logo: React.FC = () => (
   <div className="logo-wrapper" aria-hidden>
     <svg width="36" height="36" viewBox="0 0 100 100" className="logo-svg" xmlns="http://www.w3.org/2000/svg">
-      <rect x="6" y="6" width="88" height="88" rx="14" fill="#0f0f13" stroke="#2a243f" strokeWidth="4"/>
-      <path d="M30 68 L44 32 L58 68 Z" fill="#6f4cff" opacity="0.95"/>
+      <rect x="6" y="6" width="88" height="88" rx="14" fill="#0f0f13" stroke="#2a243f" strokeWidth="4" />
+      <path d="M30 68 L44 32 L58 68 Z" fill="#6f4cff" opacity="0.95" />
       <circle cx="74" cy="32" r="10" fill="#6f4cff" />
     </svg>
 
@@ -40,6 +40,14 @@ const App: React.FC = () => {
               <Nav.Link href="#habilidades">Habilidades</Nav.Link>
               <Nav.Link href="#projetos">Projetos</Nav.Link>
               <Nav.Link href="#contato">Contato</Nav.Link>
+              <Nav.Link
+                href="https://www.canva.com/design/DAGCgQkCGHA/M85zMymAJzjR4O3jcTEzQg/view?utm_content=DAGCgQkCGHA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1207284283"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-cv"
+              >
+                Currículo
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -70,7 +78,7 @@ const App: React.FC = () => {
                 <span className="dot green" />
               </div>
               <pre className="code-block">
-{`// Exemplo
+                {`// Exemplo
 function sayHi() {
   console.log("Olá, mundo!");
 }`}
@@ -84,20 +92,21 @@ function sayHi() {
       <section id="sobre" className="section">
         <h2 className="section-title">Sobre mim</h2>
         <div className='about-gridimg about-card'>
-           <img               
-                src={LucasGaudard}
-                alt="Foto de Lucas Gaudard"
-                style={{ width: '220px',
-                   borderRadius: '20px',
-                 }}       
-              />
+          <img
+            src={LucasGaudard}
+            alt="Foto de Lucas Gaudard"
+            style={{
+              width: '220px',
+              borderRadius: '20px',
+            }}
+          />
 
         </div>
         <p className="section-text">
-         Sou estudante de Engenharia de Software e desenvolvedor front-end com foco em React, Angular, TypeScript e boas práticas. Tenho experiência na criação de interfaces modernas, responsivas e acessíveis, sempre priorizando performance, escalabilidade e uma UX bem pensada.
-         Gosto de unir lógica com visão de produto, criando soluções que realmente resolvem problemas.
-         Sou disciplinado com organização, componentização e versionamento, além de possuir conhecimentos em Node.js e APIs REST, o que me ajuda a entender o fluxo completo das aplicações.
-         Tenho facilidade em trabalhar em equipe, comunicar ideias e me adaptar rapidamente. Busco constantemente evoluir e contribuir em projetos que valorizam inovação e qualidade de código.
+          Sou estudante de Engenharia de Software e desenvolvedor front-end com foco em React, Angular, TypeScript e boas práticas. Tenho experiência na criação de interfaces modernas, responsivas e acessíveis, sempre priorizando performance, escalabilidade e uma UX bem pensada.
+          Gosto de unir lógica com visão de produto, criando soluções que realmente resolvem problemas.
+          Sou disciplinado com organização, componentização e versionamento, além de possuir conhecimentos em Node.js e APIs REST, o que me ajuda a entender o fluxo completo das aplicações.
+          Tenho facilidade em trabalhar em equipe, comunicar ideias e me adaptar rapidamente. Busco constantemente evoluir e contribuir em projetos que valorizam inovação e qualidade de código.
         </p>
         <div className="about-grid">
           <div className="about-card">
@@ -161,9 +170,9 @@ function sayHi() {
         <p className="section-text">Me chama para trabalhar juntos ou trocar ideias.</p>
 
         <div className="contact-grid">
-          <a href="mailto:https://mail.google.com/mail/?view=cm&fs=1&to=Lucasgaudard07@gmail.com"  className="contact-card">📩 Lucasgaudard07@gmail.com</a>
+          <a href="mailto:https://mail.google.com/mail/?view=cm&fs=1&to=Lucasgaudard07@gmail.com" className="contact-card">📩 Lucasgaudard07@gmail.com</a>
           <a href="https://github.com/LucasGaudard?tab=repositories" target="_blank" rel="noreferrer" className="contact-card">💻 GitHub</a>
-          <a href="https://www.linkedin.com/in/lucas-gaudard07"  target="_blank" rel="noreferrer" className="contact-card">🔗 LinkedIn</a>
+          <a href="https://www.linkedin.com/in/lucas-gaudard07" target="_blank" rel="noreferrer" className="contact-card">🔗 LinkedIn</a>
         </div>
 
         <p className="footer-note">© {new Date().getFullYear()} Gaudard Dev — Desenvolvedor Front-End</p>
