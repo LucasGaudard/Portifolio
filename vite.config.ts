@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Portif-lio/', // 👈 nome EXATO do repositório
+  base: '/portfolio/',
+  build: {
+    outDir: 'docs',
+  },
 })
