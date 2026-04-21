@@ -105,7 +105,7 @@ function sayHi() {
         <p className="section-text">
           Sou estudante de Engenharia de Software e desenvolvedor front-end com foco em React, Angular, TypeScript e boas práticas. Tenho experiência na criação de interfaces modernas, responsivas e acessíveis, sempre priorizando performance, escalabilidade e uma UX bem pensada.
           Gosto de unir lógica com visão de produto, criando soluções que realmente resolvem problemas.
-          Sou disciplinado com organização, componentização e versionamento, além de possuir conhecimentos em Node.js e APIs REST, o que me ajuda a entender o fluxo completo das aplicações.
+          Sou disciplinado com organização, componentização e versionamento, além de possuir conhecimentos em Node.js, APIs REST e MongoDB o que me ajuda a entender o fluxo completo das aplicações.
           Tenho facilidade em trabalhar em equipe, comunicar ideias e me adaptar rapidamente. Busco constantemente evoluir e contribuir em projetos que valorizam inovação e qualidade de código.
         </p>
         <div className="about-grid">
@@ -129,26 +129,37 @@ function sayHi() {
 
       {/* PROJETOS */}
       <section id="projetos" className="section">
-        <h2 className="section-title">Projetos</h2>
+        <h2 className="section-title">Projetos</h2> 
 
-        <div className="projects-grid">
+
+          <div className="projects-grid">
           <article className="project-card">
-            <div className="project-meta">Fullstack • React + Typescript + Bootstrap</div>
-            <h3>Smile-Burguer</h3>
-            <p>App de gerenciamento para hamburgueria com painel de produtos, autenticação e CRUD.</p>
+            <div className="project-meta">Fullstack • React + Node.js + MongoDB + Cloudinary</div>
+            <h3>Blessmile-Gallery</h3>
+            <p>Galeria de eventos com upload de imagens e gerenciamento de conteúdo.</p>
             <div className="project-actions">
-              <a className="btn-secondary" href="https://github.com/LucasGaudard/Smile-Burguer.git" target="_blank" rel="noreferrer">Repositório</a>
-              <a className="btn-ghost" href="http://localhost:5174/" target="_blank" rel="noreferrer">Aplicação</a>
+              <a className="btn-secondary" href="https://github.com/LucasGaudard/BlessmileFront.git" target="_blank" rel="noreferrer">Repositório</a>
+              <a className="btn-ghost" href="https://blessmile-front.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
             </div>
           </article>
 
           <article className="project-card">
-            <div className="project-meta">Front-End • Angular + Typescript + Bootstrap </div>
-            <h3>Smile-Tour </h3>
-            <p>Smile-Tour é um sistema de reservas de passeios criado com foco em praticidade, design limpo e experiência do usuário. O projeto une frontend moderno com lógica eficiente, mostrando minha evolução como desenvolvedor.</p>
+            <div className="project-meta">Front-End • React + Typescript + Bootstrap</div>
+            <h3>Smile-Burguer</h3>
+            <p>App de gerenciamento para hamburgueria com painel de produtos, autenticação e CRUD.</p>
             <div className="project-actions">
-              <a className="btn-secondary" href="https://github.com/LucasGaudard/Projeto-Smiletour.git" target="_blank" rel="noreferrer">Repositório</a>
-              <a className="btn-ghost" href="http://localhost:4200/" target="_blank" rel="noreferrer">Aplicação</a>
+              <a className="btn-secondary" href="https://github.com/LucasGaudard/Smile-Burguer.git" target="_blank" rel="noreferrer">Repositório</a>
+              <a className="btn-ghost" href="smile-burguer.vercel.app" target="_blank" rel="noreferrer">Aplicação</a>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <div className="project-meta">Fullstack • React + Node.JS + MongoDB </div>
+            <h3>Gerenciador de Clientes </h3>
+            <p>Aplicação web full stack desenvolvida com React, integrada a uma API REST em Node.js e MongoDB para gerenciamento de clientes. O sistema permite realizar operações de CRUD, com foco em organização de dados, comunicação frontend–backend e boas práticas no desenvolvimento de aplicações modernas.</p>
+            <div className="project-actions">
+              <a className="btn-secondary" href="https://github.com/LucasGaudard/Gerenciador-Clientes.git" target="_blank" rel="noreferrer">Repositório</a>
+              <a className="btn-ghost" href="https://lucasgaudard.github.io/Gerenciador-Clientes/" target="_blank" rel="noreferrer">Aplicação</a>
             </div>
           </article>
 
@@ -158,7 +169,7 @@ function sayHi() {
             <p>Formulário de Cadastro desenvolvido com HTML, CSS e JavaScript, destacando responsividade e validações em tempo real através da manipulação do DOM.</p>
             <div className="project-actions">
               <a className="btn-secondary" href="https://github.com/LucasGaudard/Formul-rio-de-Cadastro-Responsivo.git" target="_blank" rel="noreferrer">Repositório</a>
-              <a className="btn-ghost" href="http://127.0.0.1:5500/index.html" target="_blank" rel="noreferrer">Aplicação</a>
+              <a className="btn-ghost" href="formulario-de-cadastro-responsivo.vercel.app" target="_blank" rel="noreferrer">Aplicação</a>
             </div>
           </article>
         </div>
