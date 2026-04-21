@@ -149,7 +149,7 @@ function sayHi() {
             <p>App de gerenciamento para hamburgueria com painel de produtos, autenticação e CRUD.</p>
             <div className="project-actions">
               <a className="btn-secondary" href="https://github.com/LucasGaudard/Smile-Burguer.git" target="_blank" rel="noreferrer">Repositório</a>
-              <a className="btn-ghost" href="smile-burguer.vercel.app" target="_blank" rel="noreferrer">Aplicação</a>
+              <a className="btn-ghost" href="https://smile-burguer.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
             </div>
           </article>
 
@@ -159,7 +159,7 @@ function sayHi() {
             <p>Aplicação web full stack desenvolvida com React, integrada a uma API REST em Node.js e MongoDB para gerenciamento de clientes. O sistema permite realizar operações de CRUD, com foco em organização de dados, comunicação frontend–backend e boas práticas no desenvolvimento de aplicações modernas.</p>
             <div className="project-actions">
               <a className="btn-secondary" href="https://github.com/LucasGaudard/Gerenciador-Clientes.git" target="_blank" rel="noreferrer">Repositório</a>
-              <a className="btn-ghost" href="https://lucasgaudard.github.io/Gerenciador-Clientes/" target="_blank" rel="noreferrer">Aplicação</a>
+              <a className="btn-ghost" href="https://gerenciador-clientes-lucas-projects-179b50e1.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
             </div>
           </article>
 
