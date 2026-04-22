@@ -169,7 +169,7 @@ function sayHi() {
             <p>Formulário de Cadastro desenvolvido com HTML, CSS e JavaScript, destacando responsividade e validações em tempo real através da manipulação do DOM.</p>
             <div className="project-actions">
               <a className="btn-secondary" href="https://github.com/LucasGaudard/Formul-rio-de-Cadastro-Responsivo.git" target="_blank" rel="noreferrer">Repositório</a>
-              <a className="btn-ghost" href="formulario-de-cadastro-responsivo.vercel.app" target="_blank" rel="noreferrer">Aplicação</a>
+              <a className="btn-ghost" href="https://formulario-de-cadastro-responsivo.vercel.app/" target="_blank" rel="noreferrer">Aplicação</a>
             </div>
           </article>
         </div>
