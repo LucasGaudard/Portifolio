@@ -41,7 +41,7 @@ const App: React.FC = () => {
               <Nav.Link href="#projetos">Projetos</Nav.Link>
               <Nav.Link href="#contato">Contato</Nav.Link>
               <Nav.Link
-                href="https://www.canva.com/design/DAGCgQkCGHA/M85zMymAJzjR4O3jcTEzQg/view?utm_content=DAGCgQkCGHA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1207284283"
+                href="https://canva.link/40rkwavnr12h2op"
                 target="_blank"
                 rel="noreferrer"
                 className="nav-cv"
